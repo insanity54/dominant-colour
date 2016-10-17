@@ -1,0 +1,26 @@
+{
+  "name": "dominant-colour",
+  "version": "0.0.1",
+  "description": "scrape deviant art profile and get the dominant colors used in the creator's art",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/foreman/nf.js run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanity54/dominant-colour.git"
+  },
+  "keywords": [
+    "dominant",
+    "color",
+    "colour",
+    "deviantart",
+    "analyzation"
+  ],
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insanity54/dominant-colour/issues"
+  },
+  "homepage": "https://github.com/insanity54/dominant-colour#readme"
+}
