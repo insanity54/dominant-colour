@@ -2,7 +2,7 @@ var DA = require('./lib/deviantart');
 var Promise = require('bluebird');
 var debug = require('debug')('dominant-colour');
 var assert = require('chai').assert;
-
+var grub = require('./lib/grub');
 
 var daClientSecret = process.env.DA_CLIENT_SECRET;
 var daClientID = process.env.DA_CLIENT_ID;
@@ -17,6 +17,10 @@ var da = new DA({
     clientSecret: process.env.DA_CLIENT_SECRET
 });
 
+
+
+
+
 return da.getClientAccessToken()
     .then(function() {
 	debug('  - got access token');
@@ -25,9 +29,9 @@ return da.getClientAccessToken()
     })
     .then(function(gallery) {
 	assert.isDefined(gallery);
-	assert.isObject(gallery);
 	debug('  - got gallery');
 	debug(gallery);
+	debug('gallery.length=%s',gallery.length);
     })
     .catch(function(err) {
 	debug('  - got an error while getting gallery');
