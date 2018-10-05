@@ -25,11 +25,11 @@
   "homepage": "https://github.com/insanity54/dominant-colour#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
-    "chai": "^3.5.0",
-    "damn": "0.0.2-b",
-    "debug": "^2.2.0",
+    "chai": "^4.2.0",
+    "damn": "0.2.0",
+    "debug": "^4.0.1",
     "deviantart": "^0.1.0",
-    "foreman": "^2.0.0",
+    "foreman": "^3.0.1",
     "lodash": "^4.16.4",
     "request": "^2.75.0",
     "request-promise": "^4.1.1"
